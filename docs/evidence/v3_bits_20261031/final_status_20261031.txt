@@ -1,0 +1,10 @@
+PC2 final read-only status after v3 M experimental-bit board tests
+Date: 2026-10-31 (PC date; board clock is wrong)
+Board: 192.168.137.101
+
+BAR0 0xA4 = 0x00FF0010  (READY=1, FAULT=0, BUSY=0, DONE=0, RESET_BUSY=0, ERR=0, LAST_SESSION=255)
+BAR0 0xA8 = 0x00000000
+BAR0 0xAC = 0x504C4233  (v3 M experimental VERSION candidate)
+
+The endpoint was left READY after the final pcie1-recover.sh.
+No host process is left running.

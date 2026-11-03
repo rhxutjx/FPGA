@@ -1,0 +1,73 @@
+{
+    "schema":  "PC2_V3_DRAFT_MANIFEST",
+    "version":  "0.3.1-draft",
+    "generated":  "2026-11-01",
+    "status":  "DRAFT_NOT_FROZEN_NOT_BOARD_VERIFIED",
+    "protocol_version":  3,
+    "max_sessions":  3,
+    "control_session":  255,
+    "session_ids":  [
+                        0,
+                        1,
+                        2
+                    ],
+    "capability":  "DEFERRED_NOT_IN_V3",
+    "address_binding":  "UNBOUND",
+    "board_verified":  false,
+    "b_multi_session_bit":  "M experimental board-tested for RESET/TEST only; B bit missing",
+    "b_independent_goldens":  "MISSING",
+    "pc1_host_batch":  "M1_ONLY",
+    "offline_tests":  "30 passed: test_multisession_v3 (15) + test_plan_b_status_v3 (15)",
+    "files":  [
+                  {
+                      "name":  "contract_v3_session.json",
+                      "bytes":  6256,
+                      "sha256":  "4ff511226112f91a6fb662a276d85b886b816d17a0817d3d157f12860807df9f"
+                  },
+                  {
+                      "name":  "multisession_v3.py",
+                      "bytes":  7056,
+                      "sha256":  "36e9146e2d3539ea5d8eedc7723920145af2a4a64e1446d09e31e1c13042c34e"
+                  },
+                  {
+                      "name":  "make_multisession_v3_vectors.py",
+                      "bytes":  8124,
+                      "sha256":  "9a01007b36ea476c54a5f6382985a5ecf6d56a8b389a5a5c996fd337619c7023"
+                  },
+                  {
+                      "name":  "golden_vectors_v3.json",
+                      "bytes":  76701,
+                      "sha256":  "e34657ed632833dd630fe928b1f932ebec3c1387b5a8f68446ef549c1a7aaad7"
+                  },
+                  {
+                      "name":  "test_multisession_v3.py",
+                      "bytes":  6385,
+                      "sha256":  "dd336e518db3a4057959663f8ee41e6537b42840eb507e9f5ba1a61917a8538e"
+                  },
+                  {
+                      "name":  "MULTI_SESSION_INTERFACE.md",
+                      "bytes":  11609,
+                      "sha256":  "5f5821f49e9d8e9d94f2ff49a0374372ad3cccf067992125e6b95c3fa92bbf77"
+                  },
+                  {
+                      "name":  "PLAN_B_STATUS_V3.md",
+                      "bytes":  10986,
+                      "sha256":  "f5d5723a3cdec0647a1cade0f618943462dac80874452c50321e7edcccfeb8ae"
+                  },
+                  {
+                      "name":  "plan_b_status_v3.json",
+                      "bytes":  11345,
+                      "sha256":  "5302155d7a86259e3fde95a22b6fdd4e37ee9ce1651c6c0a1d1be1de6a75ac67"
+                  },
+                  {
+                      "name":  "plan_b_status_v3.py",
+                      "bytes":  4075,
+                      "sha256":  "6abf53ec6c31b95f8fb75ae1440ea60751817fa25d37c8d32dc48e3d7126c497"
+                  },
+                  {
+                      "name":  "test_plan_b_status_v3.py",
+                      "bytes":  5100,
+                      "sha256":  "d5b1c22170dc11ec00023aff4171dcc18f2ba22e345710d8a15164932f6acb15"
+                  }
+              ]
+}

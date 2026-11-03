@@ -13,3 +13,12 @@ __pycache__/
 /pcie_transport/evidence/
 /pcie_transport/*.log
 
+
+# PC2 handoff artifacts and large board evidence are local only
+/deliverables/
+/docs/evidence/**/*.bit
+/docs/evidence/**/*.bin
+/docs/evidence/**/*.tar.gz
+/docs/evidence/**/*.zip
+/docs/evidence/**/*.log
+

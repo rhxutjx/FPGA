@@ -1,0 +1,738 @@
+{
+  "schema": "V3_BOARD_SMOKE_V1",
+  "version_raw": 1347174963,
+  "status_initial_raw": 16711696,
+  "sessions": [
+    0,
+    1,
+    2
+  ],
+  "rounds_per_session": 30,
+  "ack_done": true,
+  "status_offset": 164,
+  "control_offset": 168,
+  "version_offset": 172,
+  "records": [
+    {
+      "session": 0,
+      "seq": 2,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 3,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 4,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 5,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 6,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 7,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 8,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 9,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 10,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 11,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 12,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 13,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 14,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 15,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 16,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 17,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 18,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 19,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 20,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 21,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 22,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 23,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 24,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 25,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 26,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 27,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 28,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 29,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 30,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 31,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 32,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 33,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 34,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 35,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 36,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 37,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 38,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 39,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 40,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 41,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 42,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 43,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 44,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 45,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 46,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 47,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 48,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 49,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 50,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 51,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 52,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 53,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 54,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 55,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 56,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 57,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 58,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 59,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 60,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 61,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 62,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 63,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 64,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 65,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 66,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 67,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 68,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 69,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 70,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 71,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 72,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 73,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 74,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 75,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 76,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 77,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 78,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 79,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 80,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 81,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 82,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 83,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 84,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 85,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 86,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 87,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 88,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 89,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 90,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 91,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    }
+  ],
+  "result": "SMOKE_OK"
+}

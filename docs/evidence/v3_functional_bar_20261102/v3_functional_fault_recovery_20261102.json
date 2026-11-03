@@ -1,0 +1,34 @@
+{
+  "schema": "V3_BOARD_FAULT_V1",
+  "result": "FAULT_RECOVERY_OK",
+  "version_raw": 1347174963,
+  "status_initial_raw": 16711696,
+  "status_offset": 164,
+  "control_offset": 168,
+  "records": [
+    {
+      "fault": 1,
+      "seq": 1000,
+      "status_raw": 16711718,
+      "err": 3,
+      "fault_code": 0,
+      "last_session": 255
+    },
+    {
+      "fault": 1,
+      "seq": 1003,
+      "status_raw": 16711720,
+      "err": 4,
+      "fault_code": 0,
+      "last_session": 255
+    },
+    {
+      "fault": 1,
+      "seq": 1006,
+      "status_raw": 16711722,
+      "err": 5,
+      "fault_code": 0,
+      "last_session": 255
+    }
+  ]
+}

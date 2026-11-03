@@ -1,6 +1,6 @@
 # 当前项目状态
 
-更新：2026-09-30。[PLAN](../PLAN.md)定义边界，[架构](COMPUTE_ARCHITECTURE.md)定义数据流，[RK3576 Linux 开发入口](RK3576_LINUX_DEVELOPMENT.md)沉淀随板教程与操作 SOP，[UNKNOWNS](UNKNOWNS.md)是唯一开放问题清单。
+更新：2026-11-03。**2026-09-30 之后的最新 B/M v3 实板结果见 [PC2_PROGRESS_20261103](PC2_PROGRESS_20261103.md)。** [PLAN](../PLAN.md)定义边界，[架构](COMPUTE_ARCHITECTURE.md)定义数据流，[RK3576 Linux 开发入口](RK3576_LINUX_DEVELOPMENT.md)沉淀随板教程与操作 SOP，[UNKNOWNS](UNKNOWNS.md)是唯一开放问题清单。
 
 ## FROZEN：团队决定
 

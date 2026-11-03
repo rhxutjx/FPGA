@@ -1,0 +1,18 @@
+{
+  "schema": "M_30_LAYER_84_POS_REPLAY_V1",
+  "result": "M30_GOLDEN_OK",
+  "frames": 2520,
+  "first": {
+    "layer": 0,
+    "position": 0,
+    "seq": 2
+  },
+  "last": {
+    "layer": 29,
+    "position": 83,
+    "seq": 2521
+  },
+  "input_sha256": "062bc11f3af0fb42cb7fa82cbcf74d38365a684437dedd16bfb21c0c37061883",
+  "expected_sha256": "eb3f8c095a368dd0d61731356c4af7027727fe0ff4dfb0b7fb3e04bfdb657c8d",
+  "note": "B/PC1 independent M golden; fixed 30-layer trajectory; not three-prompt batch/closed-loop"
+}

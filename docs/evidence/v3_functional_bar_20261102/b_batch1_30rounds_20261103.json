@@ -1,0 +1,1961 @@
+{
+  "schema": "B_BATCH1_3WARMUP_30ROUNDS_V1",
+  "status": "PASS_B_BATCH1_30ROUNDS",
+  "mode": "B batch=1; three prompts sequential each round",
+  "warmup_rounds": 3,
+  "measured_rounds": [
+    {
+      "phase": "measured",
+      "round": 1,
+      "wall_s": 138.33243357599713,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 45.97257323500162
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.22514002099706
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.13467179700092
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 2,
+      "wall_s": 138.55826453799818,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.00386006199915
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.205566309999995
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.348790014999395
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 3,
+      "wall_s": 138.72488134399828,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.22000498799753
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.36002647699934
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.14480392599944
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 4,
+      "wall_s": 139.6213003289995,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.45755912800087
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.569908948000375
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.593785455002944
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 5,
+      "wall_s": 139.4676718080009,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.5383153340008
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.47784701400087
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.451462300003186
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 6,
+      "wall_s": 139.29239353999947,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.29119624500163
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.526068719998875
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.475078374001896
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 7,
+      "wall_s": 139.82009369499792,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.44989333999911
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.88709492899943
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.48305743200035
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 8,
+      "wall_s": 139.26761583999905,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.39618661499844
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.42070259799948
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.45067595799992
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 9,
+      "wall_s": 140.1328533650012,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.72434056600105
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.73398802000156
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.67447561500012
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 10,
+      "wall_s": 140.19154404399887,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.65579747400261
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.87045137699897
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.66524641000069
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 11,
+      "wall_s": 139.80467245600084,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.60253403599927
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.558802073999686
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.643286779002665
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 12,
+      "wall_s": 140.14604762899762,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.80448599100055
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.56392159299867
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.77759085800062
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 13,
+      "wall_s": 139.42088269300075,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.56733407499996
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.49584753599993
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.35765244399954
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 14,
+      "wall_s": 139.93189307300054,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.609021829000994
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.605958708998514
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.71686600999965
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 15,
+      "wall_s": 140.06511248199968,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.71139365899944
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.76415563699993
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.589514560997486
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 16,
+      "wall_s": 139.57606573599696,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.522252296999795
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.576003359001334
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.477761081998324
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 17,
+      "wall_s": 139.9104851910015,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.55701757100178
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.65652969999792
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.696886673002155
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 18,
+      "wall_s": 139.9043424369993,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.4162622570002
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.728192188998946
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.75984300699929
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 19,
+      "wall_s": 140.31916010200075,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.73178675700183
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.66804799500096
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.919271587001276
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 20,
+      "wall_s": 140.24278439499903,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.716458121998585
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.82970167599706
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.696576770998945
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 21,
+      "wall_s": 140.0901098760005,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.58876915400106
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.696966552997765
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.80432465899867
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 22,
+      "wall_s": 139.86539486199763,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.68704523299675
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.58320122200166
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.59510164099993
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 23,
+      "wall_s": 140.18069838600059,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.617782020999584
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.81237501299984
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.75049267199938
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 24,
+      "wall_s": 140.3947097320015,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.76098043000093
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.685801677998825
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.947880531999544
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 25,
+      "wall_s": 140.12185682400013,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.60717185099929
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.78842964400246
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.726213072000974
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 26,
+      "wall_s": 139.77611848800007,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.5395547420012
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.63338348399702
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.60312893599985
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 27,
+      "wall_s": 140.28166530499948,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.74716458599869
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.737740541000676
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.79671161399892
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 28,
+      "wall_s": 140.13356352999836,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.71930686199994
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.65733854100108
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.756873460999486
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 29,
+      "wall_s": 140.21978624400072,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.799826274000225
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.65372732600008
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.76618561799842
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 30,
+      "wall_s": 140.02749892899737,
+      "tokens": 24,
+      "prompts": [
+        {
+          "prompt_index": 1,
+          "label": "Tim and the truck",
+          "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            17170,
+            3514,
+            288,
+            260
+          ],
+          "generated_text": " look nice.\"\nTim went to the",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.488766946000396
+        },
+        {
+          "prompt_index": 2,
+          "label": "Spot and his toy",
+          "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+          "generated_ids": [
+            24327,
+            288,
+            325,
+            253,
+            15613,
+            30,
+            1249,
+            2406
+          ],
+          "generated_text": " pretend to be a superhero. But sometimes",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.846982605999074
+        },
+        {
+          "prompt_index": 3,
+          "label": "Mia in the kitchen",
+          "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+          "generated_ids": [
+            3985,
+            2073,
+            282,
+            896,
+            1495,
+            30,
+            198,
+            198
+          ],
+          "generated_text": " box full of different things.\n\n",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260,
+          "wall_s": 46.69169982099993
+        }
+      ]
+    }
+  ],
+  "total_tokens": 720,
+  "total_wall_s": 4193.821900448984,
+  "aggregate_tokens_s": 0.17168111023572985
+}

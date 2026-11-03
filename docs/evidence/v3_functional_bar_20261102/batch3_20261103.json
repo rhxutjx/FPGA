@@ -1,0 +1,959 @@
+{
+  "label": "experimental; record board bit/host/transport separately",
+  "batch": 3,
+  "init_s": 5.843782521000321,
+  "generation_wall_s_including_reset_and_prefill": 113.16139366800053,
+  "generated_token_count": 24,
+  "forward_timings": [
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        0,
+        0,
+        0
+      ],
+      "timing": {
+        "forward_wall_us": 2257772.355,
+        "attention_wall_us": 179576.992,
+        "npu_step_us": 93231.95600000003,
+        "npu_run_api_us": 66750.48200000006,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        1,
+        1,
+        1
+      ],
+      "timing": {
+        "forward_wall_us": 2331419.227,
+        "attention_wall_us": 208979.815,
+        "npu_step_us": 102541.06699999998,
+        "npu_run_api_us": 72520.42599999999,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        2,
+        2,
+        2
+      ],
+      "timing": {
+        "forward_wall_us": 2410997.218,
+        "attention_wall_us": 240924.914,
+        "npu_step_us": 101562.2650000001,
+        "npu_run_api_us": 73823.17400000003,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        3,
+        3,
+        3
+      ],
+      "timing": {
+        "forward_wall_us": 2520985.845,
+        "attention_wall_us": 284845.678,
+        "npu_step_us": 105823.28999999996,
+        "npu_run_api_us": 74666.74,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        4,
+        4,
+        4
+      ],
+      "timing": {
+        "forward_wall_us": 2554630.664,
+        "attention_wall_us": 311172.646,
+        "npu_step_us": 107205.172,
+        "npu_run_api_us": 76704.86000000002,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        5,
+        5,
+        5
+      ],
+      "timing": {
+        "forward_wall_us": 2536717.49,
+        "attention_wall_us": 315157.151,
+        "npu_step_us": 111070.19900000001,
+        "npu_run_api_us": 80274.61400000002,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        6,
+        6,
+        6
+      ],
+      "timing": {
+        "forward_wall_us": 2590267.562,
+        "attention_wall_us": 317151.916,
+        "npu_step_us": 112462.43599999999,
+        "npu_run_api_us": 80656.87399999998,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        7,
+        7,
+        7
+      ],
+      "timing": {
+        "forward_wall_us": 2557843.925,
+        "attention_wall_us": 321419.537,
+        "npu_step_us": 106766.18899999994,
+        "npu_run_api_us": 78230.04399999998,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        8,
+        8,
+        8
+      ],
+      "timing": {
+        "forward_wall_us": 2605097.955,
+        "attention_wall_us": 322578.544,
+        "npu_step_us": 108768.61500000002,
+        "npu_run_api_us": 78017.28099999997,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        9,
+        9,
+        9
+      ],
+      "timing": {
+        "forward_wall_us": 2621871.626,
+        "attention_wall_us": 322772.239,
+        "npu_step_us": 110229.72499999999,
+        "npu_run_api_us": 79105.45300000001,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        10,
+        10,
+        10
+      ],
+      "timing": {
+        "forward_wall_us": 2614079.407,
+        "attention_wall_us": 327790.939,
+        "npu_step_us": 109266.64499999999,
+        "npu_run_api_us": 78351.024,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        11,
+        11,
+        11
+      ],
+      "timing": {
+        "forward_wall_us": 2600180.783,
+        "attention_wall_us": 324222.563,
+        "npu_step_us": 109068.22200000001,
+        "npu_run_api_us": 77931.54199999999,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        12,
+        12,
+        12
+      ],
+      "timing": {
+        "forward_wall_us": 2600453.935,
+        "attention_wall_us": 324224.155,
+        "npu_step_us": 107172.21300000003,
+        "npu_run_api_us": 76460.20499999997,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        13,
+        13,
+        13
+      ],
+      "timing": {
+        "forward_wall_us": 2640085.867,
+        "attention_wall_us": 320263.442,
+        "npu_step_us": 106111.13399999998,
+        "npu_run_api_us": 77271.754,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        14,
+        14,
+        14
+      ],
+      "timing": {
+        "forward_wall_us": 2648362.585,
+        "attention_wall_us": 323748.38,
+        "npu_step_us": 110191.46999999994,
+        "npu_run_api_us": 79029.58300000004,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        15,
+        15,
+        15
+      ],
+      "timing": {
+        "forward_wall_us": 2654910.613,
+        "attention_wall_us": 332625.109,
+        "npu_step_us": 108071.57599999997,
+        "npu_run_api_us": 75677.50900000003,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        16,
+        16,
+        16
+      ],
+      "timing": {
+        "forward_wall_us": 2610509.737,
+        "attention_wall_us": 324720.136,
+        "npu_step_us": 109242.94900000005,
+        "npu_run_api_us": 76742.549,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        17,
+        17,
+        17
+      ],
+      "timing": {
+        "forward_wall_us": 2642041.861,
+        "attention_wall_us": 319842.997,
+        "npu_step_us": 107956.73599999995,
+        "npu_run_api_us": 77056.60999999997,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        18,
+        18,
+        18
+      ],
+      "timing": {
+        "forward_wall_us": 2619985.983,
+        "attention_wall_us": 329987.49,
+        "npu_step_us": 110552.10800000001,
+        "npu_run_api_us": 76573.44700000004,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        19,
+        19,
+        19
+      ],
+      "timing": {
+        "forward_wall_us": 2685150.909,
+        "attention_wall_us": 324212.238,
+        "npu_step_us": 108061.93700000012,
+        "npu_run_api_us": 79072.80900000001,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        20,
+        20,
+        20
+      ],
+      "timing": {
+        "forward_wall_us": 2622799.173,
+        "attention_wall_us": 323071.98,
+        "npu_step_us": 108509.38,
+        "npu_run_api_us": 79309.34399999998,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        21,
+        21,
+        21
+      ],
+      "timing": {
+        "forward_wall_us": 2667502.228,
+        "attention_wall_us": 326605.225,
+        "npu_step_us": 110670.15100000006,
+        "npu_run_api_us": 79249.99999999996,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        22,
+        22,
+        22
+      ],
+      "timing": {
+        "forward_wall_us": 2690553.85,
+        "attention_wall_us": 328887.032,
+        "npu_step_us": 110939.22600000002,
+        "npu_run_api_us": 79612.27799999998,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        23,
+        23,
+        23
+      ],
+      "timing": {
+        "forward_wall_us": 2684540.62,
+        "attention_wall_us": 324957.213,
+        "npu_step_us": 110944.38499999994,
+        "npu_run_api_us": 79544.90699999996,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        24,
+        24,
+        24
+      ],
+      "timing": {
+        "forward_wall_us": 2670507.877,
+        "attention_wall_us": 345924.244,
+        "npu_step_us": 98222.67199999996,
+        "npu_run_api_us": 68187.02000000002,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        25,
+        25,
+        25
+      ],
+      "timing": {
+        "forward_wall_us": 2750124.501,
+        "attention_wall_us": 361364.77,
+        "npu_step_us": 98561.81400000001,
+        "npu_run_api_us": 70558.28199999999,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        26,
+        26,
+        26
+      ],
+      "timing": {
+        "forward_wall_us": 2736899.094,
+        "attention_wall_us": 379513.068,
+        "npu_step_us": 107297.536,
+        "npu_run_api_us": 75849.57899999998,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        27,
+        27,
+        27
+      ],
+      "timing": {
+        "forward_wall_us": 2793047.085,
+        "attention_wall_us": 412738.377,
+        "npu_step_us": 110163.89400000003,
+        "npu_run_api_us": 78611.459,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        28,
+        28,
+        28
+      ],
+      "timing": {
+        "forward_wall_us": 2779231.757,
+        "attention_wall_us": 426195.186,
+        "npu_step_us": 108780.58999999997,
+        "npu_run_api_us": 77190.431,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        29,
+        29,
+        29
+      ],
+      "timing": {
+        "forward_wall_us": 2854983.47,
+        "attention_wall_us": 438283.744,
+        "npu_step_us": 113238.62800000001,
+        "npu_run_api_us": 80188.10399999996,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        30,
+        30,
+        30
+      ],
+      "timing": {
+        "forward_wall_us": 2826103.06,
+        "attention_wall_us": 438047.382,
+        "npu_step_us": 110865.73699999996,
+        "npu_run_api_us": 79152.02500000002,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        31,
+        31,
+        31
+      ],
+      "timing": {
+        "forward_wall_us": 2850234.603,
+        "attention_wall_us": 438820.053,
+        "npu_step_us": 107885.78799999997,
+        "npu_run_api_us": 76468.07200000001,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        32,
+        32,
+        32
+      ],
+      "timing": {
+        "forward_wall_us": 2847989.776,
+        "attention_wall_us": 443183.974,
+        "npu_step_us": 109674.39499999989,
+        "npu_run_api_us": 78258.81299999998,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        33,
+        33,
+        33
+      ],
+      "timing": {
+        "forward_wall_us": 2837096.348,
+        "attention_wall_us": 441154.246,
+        "npu_step_us": 112097.88100000005,
+        "npu_run_api_us": 78698.379,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        34,
+        34,
+        34
+      ],
+      "timing": {
+        "forward_wall_us": 2798527.091,
+        "attention_wall_us": 437939.731,
+        "npu_step_us": 111836.39800000002,
+        "npu_run_api_us": 80552.22700000003,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        35,
+        35,
+        35
+      ],
+      "timing": {
+        "forward_wall_us": 2812936.693,
+        "attention_wall_us": 435695.815,
+        "npu_step_us": 107952.66300000004,
+        "npu_run_api_us": 76422.13200000003,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        36,
+        36,
+        36
+      ],
+      "timing": {
+        "forward_wall_us": 2844733.058,
+        "attention_wall_us": 439752.006,
+        "npu_step_us": 105711.51500000001,
+        "npu_run_api_us": 76582.91699999996,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        37,
+        37,
+        37
+      ],
+      "timing": {
+        "forward_wall_us": 2822691.417,
+        "attention_wall_us": 444721.673,
+        "npu_step_us": 108160.83100000002,
+        "npu_run_api_us": 76575.224,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        38,
+        38,
+        38
+      ],
+      "timing": {
+        "forward_wall_us": 2865482.624,
+        "attention_wall_us": 451390.249,
+        "npu_step_us": 111127.23900000005,
+        "npu_run_api_us": 79223.54,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        39,
+        39,
+        39
+      ],
+      "timing": {
+        "forward_wall_us": 2852291.449,
+        "attention_wall_us": 462042.551,
+        "npu_step_us": 112585.29799999995,
+        "npu_run_api_us": 80556.82,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        40,
+        40,
+        40
+      ],
+      "timing": {
+        "forward_wall_us": 2882813.474,
+        "attention_wall_us": 484559.843,
+        "npu_step_us": 109584.45100000002,
+        "npu_run_api_us": 78094.997,
+        "active_sessions": 3
+      }
+    },
+    {
+      "sessions": [
+        0,
+        1,
+        2
+      ],
+      "positions": [
+        41,
+        41,
+        41
+      ],
+      "timing": {
+        "forward_wall_us": 2956533.564,
+        "attention_wall_us": 525700.355,
+        "npu_step_us": 108417.85500000007,
+        "npu_run_api_us": 76971.55199999998,
+        "active_sessions": 3
+      }
+    }
+  ],
+  "results": [
+    {
+      "prompt_ids": [
+        0,
+        2705,
+        1194,
+        28,
+        253,
+        1838,
+        7706,
+        3365,
+        6362,
+        983,
+        253,
+        2066,
+        28,
+        2382,
+        15038,
+        30,
+        378,
+        15038,
+        436,
+        1035,
+        16528,
+        30,
+        6362,
+        2275,
+        28,
+        476,
+        57,
+        737,
+        288,
+        2577,
+        260,
+        15038,
+        288,
+        919,
+        357
+      ],
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "stop_reason": "MAX_NEW_TOKENS"
+    },
+    {
+      "prompt_ids": [
+        0,
+        6403,
+        1980,
+        253,
+        655,
+        28,
+        665,
+        436,
+        253,
+        33603,
+        2767,
+        3365,
+        23204,
+        30,
+        23204,
+        761,
+        253,
+        10976,
+        14027,
+        338,
+        384,
+        5732,
+        288,
+        1238,
+        351,
+        30,
+        909,
+        736,
+        3631,
+        357,
+        1130,
+        281,
+        650,
+        4388,
+        284
+      ],
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "stop_reason": "MAX_NEW_TOKENS"
+    },
+    {
+      "prompt_ids": [
+        0,
+        6403,
+        1980,
+        253,
+        655,
+        28,
+        665,
+        436,
+        253,
+        1838,
+        8180,
+        3365,
+        21230,
+        30,
+        2306,
+        5732,
+        288,
+        724,
+        874,
+        2910,
+        281,
+        260,
+        9902,
+        30,
+        1963,
+        1194,
+        28,
+        874,
+        2910,
+        3413,
+        874,
+        288,
+        32714,
+        253,
+        2066
+      ],
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "stop_reason": "MAX_NEW_TOKENS"
+    }
+  ]
+}

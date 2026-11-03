@@ -1,0 +1,62 @@
+{
+  "schema": "PC1_CPU_REFERENCE_3PROMPTS_V1",
+  "status": "PASS_PC1_CPU_REFERENCE",
+  "source": "PC1 v50 NPU linear + CPU F32 attention; no B/M bit",
+  "results": [
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        3413,
+        650,
+        2910
+      ],
+      "generated_text": " look nice.\"\nHe asked his mom",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "wall_s": 50.2310638759991
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        24327,
+        288,
+        325,
+        253,
+        15613,
+        30,
+        1249,
+        2406
+      ],
+      "generated_text": " pretend to be a superhero. But sometimes",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "wall_s": 52.01629682899875
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        8809,
+        30,
+        21230,
+        3683,
+        982,
+        699
+      ],
+      "generated_text": " box of clothes. Mia didn't know",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "wall_s": 53.476523887999065
+    }
+  ],
+  "wall_s": 155.73902106800233
+}

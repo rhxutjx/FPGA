@@ -1,0 +1,259 @@
+{
+  "schema": "V3_BOARD_SMOKE_V1",
+  "version_raw": 1347174963,
+  "status_initial_raw": 16711696,
+  "sessions": [
+    0,
+    1,
+    2
+  ],
+  "rounds_per_session": 10,
+  "interleave": true,
+  "ack_done": true,
+  "status_offset": 164,
+  "control_offset": 168,
+  "version_offset": 172,
+  "records": [
+    {
+      "session": 0,
+      "seq": 2,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 3,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 4,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 5,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 6,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 7,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 8,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 9,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 10,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 11,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 12,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 13,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 14,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 15,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 16,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 17,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 18,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 19,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 20,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 21,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 22,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 23,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 24,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 25,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 26,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 27,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 28,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 0,
+      "seq": 29,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 1,
+      "seq": 30,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    },
+    {
+      "session": 2,
+      "seq": 31,
+      "status_raw": 16711681,
+      "done": 1,
+      "err": 0,
+      "fault": 0
+    }
+  ],
+  "result": "SMOKE_OK"
+}

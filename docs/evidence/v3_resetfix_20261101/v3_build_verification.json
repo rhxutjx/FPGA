@@ -1,0 +1,42 @@
+{
+  "scope": "experimental; protocol, CDC constraints and board not signed off",
+  "mode": "M",
+  "bit": "E:\\KVmix\\batch_v3_m_resetfix_20261101\\v3_m_experimental.bit",
+  "bit_sha256": "8291b81385e3705d3b8887ee9da544712bc55f598992ab0ab53737800035aae4",
+  "timing_ns": {
+    "SWNS": 0.069,
+    "STNS": 0.0,
+    "HWNS": 0.012,
+    "HTNS": 0.0
+  },
+  "sta_coverage_percent": 99.5,
+  "resource": {
+    "slice": {
+      "used": 40999,
+      "total": 64320,
+      "percent": 63.74
+    },
+    "eram": {
+      "used": 157,
+      "total": 272,
+      "percent": 57.72
+    },
+    "dsp": {
+      "used": 23,
+      "total": 240,
+      "percent": 9.58
+    }
+  },
+  "check_timing_high": {
+    "no clock": 6,
+    "clock definition": 0,
+    "dummy node": 5,
+    "invalid constraint": 0,
+    "pll/clock buffer clock constraints": 2,
+    "combinational loops": 0,
+    "soft fifo timing exception constraints": 0
+  },
+  "source_files_changed_after_snapshot": [],
+  "timing_numbers_nonnegative": true,
+  "note": "Nonnegative timing does not validate unconstrained paths, CDC, hardware, or negotiated BAR binding."
+}

@@ -1,6 +1,6 @@
 # KVmix_on_FPGA
 
-更新：2026-09-30。**正式模型：HuggingFaceTB/SmolLM-135M；正式架构：方案 C。** RK3576 已由成员通过串口和 SSH 登录 Debian 12；NPU、PCIe 与完整模型尚未跑通。
+更新：2026-11-03。**正式模型：HuggingFaceTB/SmolLM-135M；正式架构：方案 C。** RK3576/PH1A90 的 v3 functional BAR、多 session、B/M Attention、NPU batch=3 已实板跑通；完整 full-model 质量/PPL、B/M timing 签核仍未完成。最新进度见 [PC2_PROGRESS_20261103](docs/PC2_PROGRESS_20261103.md)。
 
 ```text
 PC：离线重要性分析 / reference / 开发工具 / 用户终端
@@ -15,13 +15,13 @@ RK3576：继续下一层 → logits / sampling / detokenizer → 用户文字
 
 RK侧4GB LPDDR4X与FPGA侧256 MiB DDR是不同存储域。FPGA不默认存完整模型权重；不走PCIe持续权重流送。ERAM名义680 KiB，目标不用disRAM，约204 KiB工作集只是候选预算。
 
-当前关键工作：**NPU实际shape/M=1 benchmark → PCIe小tensor往返测量 → Attention-only FPGA bring-up**，不是完整Transformer RTL。stories15M/42M/70M保留为参考/单元验证，不主导完整上板验收。
+当前关键工作：**v3 functional BAR / 多 session / B/M golden / NPU batch=3 已跑通；下一步是 teacher-forced full-model reference、有效 PPL/next-token、B/M timing/CDC 与最终质量验收**。stories15M/42M/70M保留为参考/单元验证，不主导完整上板验收。
 
 阅读顺序：
 
 1. [STARTUP_CHECKLIST](STARTUP_CHECKLIST.md)：已验证的 RK3576 串口/SSH 恢复步骤。
 2. [PLAN](PLAN.md)：冻结边界、三人分工、里程碑。
-3. [PROJECT_STATUS](docs/PROJECT_STATUS.md)：已证事实与当前进度。
+3. [PROJECT_STATUS](docs/PROJECT_STATUS.md)：已证事实与当前进度；最新 B/M v3 实板结果见 [PC2_PROGRESS_20261103](docs/PC2_PROGRESS_20261103.md)。
 4. [COMPUTE_ARCHITECTURE](docs/COMPUTE_ARCHITECTURE.md)：计算与数据流。
 5. [UNKNOWNS](docs/UNKNOWNS.md)：唯一开放问题清单。
 6. [RK3576 Linux / NPU / PCIe 开发入口](docs/RK3576_LINUX_DEVELOPMENT.md)：随板教程证据、版本矩阵与操作 SOP；教程称出厂默认 Buildroot，**本项目实板已运行 Debian 12**。

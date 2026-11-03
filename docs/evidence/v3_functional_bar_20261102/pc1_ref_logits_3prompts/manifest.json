@@ -1,0 +1,210 @@
+{
+  "schema": "PER_STEP_LOGITS_3PROMPTS_V1",
+  "mode": "reference",
+  "source": "PC1 v50 NPU linear + CPU F32 attention",
+  "logits_file": "logits.f32.bin",
+  "logits_file_sha256": "0b275be68bae35c91cb4beccd92f7e3b6058955a6e3a94819be08e5cefc53069",
+  "results": [
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        3413,
+        650,
+        2910
+      ],
+      "generated_text": " look nice.\"\nHe asked his mom",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "logits": [
+        {
+          "position": 34,
+          "offset": 0,
+          "length": 196608,
+          "sha256": "989f97c01d08571b4392ae8e4b88d1655d8537c99f5465edf7b127464c00dc5f"
+        },
+        {
+          "position": 35,
+          "offset": 196608,
+          "length": 196608,
+          "sha256": "ac9843018f00cd9f19ef4f7dee7a22dfaad7133dc51f46412ba6d6e0f198b365"
+        },
+        {
+          "position": 36,
+          "offset": 393216,
+          "length": 196608,
+          "sha256": "0130fb27ed23daec4d9565803971de34d6e27cf86918f078b5ffbbee9798d14a"
+        },
+        {
+          "position": 37,
+          "offset": 589824,
+          "length": 196608,
+          "sha256": "4eb99a39cc3e859f2edddb00b70bcf5f215267da5c0ea4c459e1591972bfc1c3"
+        },
+        {
+          "position": 38,
+          "offset": 786432,
+          "length": 196608,
+          "sha256": "dbcfcedcdc0cc5bbb00297ee30ec52c2a767308143b256c7f6a4f5f02f73cc89"
+        },
+        {
+          "position": 39,
+          "offset": 983040,
+          "length": 196608,
+          "sha256": "d3f9867f761cfd060553f7e28e408475e01b4f668af6801b74887974a8cf7f28"
+        },
+        {
+          "position": 40,
+          "offset": 1179648,
+          "length": 196608,
+          "sha256": "6b80bad2ab55989b9905842105caf0ab1e91ca6818d14ba3632078ea40b712a9"
+        },
+        {
+          "position": 41,
+          "offset": 1376256,
+          "length": 196608,
+          "sha256": "da2d8a1e1bfeac7f20167c1cb12f39ccc16ffc152f02e77be2ff73be112d05b9"
+        }
+      ]
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        24327,
+        288,
+        325,
+        253,
+        15613,
+        30,
+        1249,
+        2406
+      ],
+      "generated_text": " pretend to be a superhero. But sometimes",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "logits": [
+        {
+          "position": 34,
+          "offset": 1572864,
+          "length": 196608,
+          "sha256": "8e42dabb9e10d0ac43f8ea2991ee32e859531b1df9952ba0249f80a9e53b76a2"
+        },
+        {
+          "position": 35,
+          "offset": 1769472,
+          "length": 196608,
+          "sha256": "7e03cb1b9b2f0332440a88ef59dd4fd4cf14dc294a0639aa7ccc82c8df204035"
+        },
+        {
+          "position": 36,
+          "offset": 1966080,
+          "length": 196608,
+          "sha256": "513698d1ebdb7fba0518aa6169bd20a655fa19ad92672d7cebe98ff83ed9f5fc"
+        },
+        {
+          "position": 37,
+          "offset": 2162688,
+          "length": 196608,
+          "sha256": "b16052d81bfa8bde07c7dd17865d7ed098d4d15f96406c48fc575375ec251107"
+        },
+        {
+          "position": 38,
+          "offset": 2359296,
+          "length": 196608,
+          "sha256": "5067c705ba731badc1e953d9d29c5ecafa6c513410c58b7c04298a125088e489"
+        },
+        {
+          "position": 39,
+          "offset": 2555904,
+          "length": 196608,
+          "sha256": "76dcb4a20dc6ea7bbb7bf382a3063b950a3ec562d4927efb50ffd5bdd1db9b1a"
+        },
+        {
+          "position": 40,
+          "offset": 2752512,
+          "length": 196608,
+          "sha256": "25b0e710503936b49e4cd3e8e63d814570e0dfaca6915f3bec10c9dd0d836629"
+        },
+        {
+          "position": 41,
+          "offset": 2949120,
+          "length": 196608,
+          "sha256": "117289ce13cc29a01f97579543f41840cd4e542141ab0a4dc09f1ddd37422866"
+        }
+      ]
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        8809,
+        30,
+        21230,
+        3683,
+        982,
+        699
+      ],
+      "generated_text": " box of clothes. Mia didn't know",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "logits": [
+        {
+          "position": 34,
+          "offset": 3145728,
+          "length": 196608,
+          "sha256": "5cc92a711e600486ba910ba2525e695f34eb1333b9d62c2289dc789f7bce9f57"
+        },
+        {
+          "position": 35,
+          "offset": 3342336,
+          "length": 196608,
+          "sha256": "f22825d6b8b4e46aaeb21e401060c43adb4dde345a77b44ccb658d28f21af41a"
+        },
+        {
+          "position": 36,
+          "offset": 3538944,
+          "length": 196608,
+          "sha256": "fdee5edfbc79deee24455802c7247ca32ca7917aca8481aef5844f2888b0ebe6"
+        },
+        {
+          "position": 37,
+          "offset": 3735552,
+          "length": 196608,
+          "sha256": "c92053aa47bd5992ceb0e09f3898fc589656e42bd38a462340df76e8118f740d"
+        },
+        {
+          "position": 38,
+          "offset": 3932160,
+          "length": 196608,
+          "sha256": "e973b9d7505e2b57a56a13dd3b982e9a5019624a1561ecf5c8a488d738e615e8"
+        },
+        {
+          "position": 39,
+          "offset": 4128768,
+          "length": 196608,
+          "sha256": "0066a7277f943f5db8a38dd26dc8857429146d6584574b9f848b1b7eb0ebd537"
+        },
+        {
+          "position": 40,
+          "offset": 4325376,
+          "length": 196608,
+          "sha256": "08f7c5f482435694cce70014d677b446af0b40ec8918e8b919da58852d48501e"
+        },
+        {
+          "position": 41,
+          "offset": 4521984,
+          "length": 196608,
+          "sha256": "37da7641372a4bc10cc7f399800b9372fc0ef2e8206b07d6d512fd21b37da776"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "NPU_LINEAR_BATCH_V1",
+  "layers": 30,
+  "items": 211,
+  "batches": [
+    2,
+    3
+  ],
+  "groups": [
+    {
+      "tag": "q",
+      "shape": [
+        576,
+        576
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 5929.13,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 6487.616999999999
+    },
+    {
+      "tag": "k",
+      "shape": [
+        576,
+        192
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 5274.206,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 5299.828000000001
+    },
+    {
+      "tag": "v",
+      "shape": [
+        576,
+        192
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 5112.626999999998,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 5105.68
+    },
+    {
+      "tag": "o",
+      "shape": [
+        576,
+        576
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 6445.018,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 6648.248
+    },
+    {
+      "tag": "gate",
+      "shape": [
+        576,
+        1536
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 9287.220999999998,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 9397.361
+    },
+    {
+      "tag": "up",
+      "shape": [
+        576,
+        1536
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 9400.772999999997,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 9556.663999999997
+    },
+    {
+      "tag": "down",
+      "shape": [
+        1536,
+        576
+      ],
+      "count": 60,
+      "batch_2_exact": 30,
+      "batch_2_step_us": 9486.976,
+      "batch_3_exact": 30,
+      "batch_3_step_us": 9423.639000000001
+    },
+    {
+      "tag": "head",
+      "shape": [
+        576,
+        49152
+      ],
+      "count": 2,
+      "batch_2_exact": 1,
+      "batch_2_step_us": 8016.594,
+      "batch_3_exact": 1,
+      "batch_3_step_us": 8141.678
+    }
+  ],
+  "status": "PASS",
+  "totals": {
+    "1": {
+      "step_us": 169099.23900000006,
+      "exact": 0,
+      "count": 633
+    },
+    "2": {
+      "step_us": 58952.545,
+      "exact": 211,
+      "count": 211
+    },
+    "3": {
+      "step_us": 60060.715000000004,
+      "exact": 211,
+      "count": 211
+    }
+  }
+}

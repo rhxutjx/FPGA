@@ -1,0 +1,47 @@
+﻿ssh : Warning: Permanently added '192.168.137.101' (ED25519) to the list of known hosts.
+所在位置 行:1 字符: 583
++ ... 3_bar1.py'; ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=NUL ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: Perman...of known hosts.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026骞?04鏈?27鏃?鏄熸湡涓€ 21:04:35 UTC
+Linux linaro-alip 6.1.99 #3 SMP Mon May 11 02:05:54 PDT 2026 aarch64 GNU/Linux
+21:00.0 RAM memory [0500]: Device [1edb:abcd]
+crw-rw---- 1 root kvdev 511, 36  4鏈?7鏃?21:03 /dev/ANLOGIC-PCI0_c2h_0
+crw-rw---- 1 root kvdev 511,  1  4鏈?7鏃?21:03 /dev/ANLOGIC-PCI0_control
+crw-rw---- 1 root kvdev 511, 32  4鏈?7鏃?21:03 /dev/ANLOGIC-PCI0_h2c_0
+crw-rw---- 1 root kvdev 511,  0  4鏈?7鏃?21:03 /dev/ANLOGIC-PCI0_user
+active
+1
+---BAR---
+BAR0 0x5c = 0x56440013
+BAR0 0xa4 = 0x00000000
+BAR0 0xac = 0x00000000
+BAR0 0x800a4 = 0x00000000
+BAR0 0x800a8 = 0x00000000
+BAR0 0x800ac = 0x00000000
+BAR0 0x8005c = 0x56440013
+---BAR1---
+BAR0 0x00 = 0x00000000
+BAR0 0x40 = 0x00000002
+BAR0 0x44 = 0x00000f00
+BAR0 0x5c = 0x56440013
+BAR0 0x74 = 0x00000c01
+BAR0 0x84 = 0x00002001
+BAR0 0xa4 = 0x00000000
+BAR0 0xa8 = 0x00000000
+BAR0 0xac = 0x00000000
+BAR0 0xb0 = 0x00000000
+BAR0 0xbc = 0x00000000
+BAR1 0x00 = 0x1fc08001
+BAR1 0x40 = 0x00000000
+BAR1 0x44 = 0x00000000
+BAR1 0x5c = 0xffffffff
+BAR1 0x74 = 0xffffffff
+BAR1 0x84 = 0xffffffff
+BAR1 0xa4 = 0xffffffff
+BAR1 0xa8 = 0xffffffff
+BAR1 0xac = 0xffffffff
+BAR1 0xb0 = 0xffffffff
+BAR1 0xbc = 0xffffffff

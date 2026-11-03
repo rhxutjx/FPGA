@@ -1,0 +1,1422 @@
+{
+  "schema": "M_BATCH3_3WARMUP_30ROUNDS_V1",
+  "status": "PASS_M_BATCH3_30ROUNDS",
+  "init_s": 5.870062518999475,
+  "warmup_rounds": 3,
+  "measured_rounds": [
+    {
+      "phase": "measured",
+      "round": 1,
+      "wall_s": 117.75635474900082,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 2,
+      "wall_s": 116.73296362700057,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 3,
+      "wall_s": 117.07156355500047,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 4,
+      "wall_s": 116.52840692000063,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 5,
+      "wall_s": 116.72160809700108,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 6,
+      "wall_s": 116.68357399900015,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 7,
+      "wall_s": 116.25378438600092,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 8,
+      "wall_s": 116.93777473299997,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 9,
+      "wall_s": 116.50022305499988,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 10,
+      "wall_s": 116.43861399900015,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 11,
+      "wall_s": 116.32110977299999,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 12,
+      "wall_s": 116.27708696500122,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 13,
+      "wall_s": 116.19848861699938,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 14,
+      "wall_s": 116.05195709600048,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 15,
+      "wall_s": 115.54544705700027,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 16,
+      "wall_s": 116.23703424999985,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 17,
+      "wall_s": 116.27434203200028,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 18,
+      "wall_s": 116.4441758060002,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 19,
+      "wall_s": 117.06760049800141,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 20,
+      "wall_s": 116.00612372700016,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 21,
+      "wall_s": 116.04779471499933,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 22,
+      "wall_s": 115.97304300500036,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 23,
+      "wall_s": 116.04628636599955,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 24,
+      "wall_s": 116.76940027399905,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 25,
+      "wall_s": 116.782080641,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 26,
+      "wall_s": 116.08433057100046,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 27,
+      "wall_s": 115.86925412300116,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 28,
+      "wall_s": 115.31656831299915,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 29,
+      "wall_s": 116.93726400500054,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    },
+    {
+      "phase": "measured",
+      "round": 30,
+      "wall_s": 116.15757911100081,
+      "generated_token_count": 24,
+      "results": [
+        {
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        },
+        {
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "stop_reason": "MAX_NEW_TOKENS"
+        }
+      ]
+    }
+  ],
+  "total_tokens": 720,
+  "total_wall_s": 3492.0318340650083,
+  "aggregate_tokens_s": 0.20618368738118334,
+  "note": "M-only; not B/M; Attention single-inflight"
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "M_INTERLEAVED_3SESSION_V1",
+  "status": "PASS_M_INTERLEAVED_3SESSION",
+  "mode": "host interleaved/pipelined; endpoint single-inflight; NOT parallel Attention/batch3",
+  "wall_s": 154.02676418400003,
+  "total_output_tokens": 24,
+  "aggregate_tokens_s": 0.15581707586435856,
+  "results": [
+    {
+      "session": 0,
+      "label": "Tim and the truck",
+      "wall_s": 153.913701498,
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260
+    },
+    {
+      "session": 1,
+      "label": "Spot and his toy",
+      "wall_s": 153.78910749599999,
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260
+    },
+    {
+      "session": 2,
+      "label": "Mia in the kitchen",
+      "wall_s": 154.02531281499998,
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260
+    }
+  ]
+}

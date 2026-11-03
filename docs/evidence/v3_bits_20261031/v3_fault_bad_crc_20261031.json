@@ -1,0 +1,18 @@
+{
+  "schema": "V3_BOARD_FAULT_V1",
+  "result": "FAULT_ONLY",
+  "version_raw": 1347174963,
+  "status_initial_raw": 16711696,
+  "status_offset": 164,
+  "control_offset": 168,
+  "records": [
+    {
+      "fault": 1,
+      "seq": 1000,
+      "status_raw": 16711718,
+      "err": 3,
+      "fault_code": 0,
+      "last_session": 255
+    }
+  ]
+}

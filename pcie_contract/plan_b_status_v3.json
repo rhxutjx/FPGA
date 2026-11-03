@@ -1,0 +1,195 @@
+{
+  "schema": "PC2_PLAN_B_STATUS_V3_DRAFT",
+  "version": "0.3-draft",
+  "status": "DRAFT_NOT_FROZEN_NOT_BOARD_VERIFIED",
+  "protocol_version": 3,
+  "scope": "global endpoint status for all 3 sessions; one in-flight frame; no per-session status register",
+  "source": "BT_SOFT_RESET_AND_STATUS_DESIGN_20261016 + PC2 v3 multi-session draft + B 2026-10-30 reply",
+  "address_binding": {
+    "status": "UNBOUND",
+    "reason": "Do not guess BAR offsets; B must confirm free offsets and cross-domain behavior against the new RTL",
+    "status_offset": null,
+    "control_offset": null,
+    "control_node": "existing validated ANLOGIC control/user character device",
+    "default_raw_mmap": false,
+    "register_width_bits": 32,
+    "read_side_effects": false,
+    "b_alias_report": {
+      "status": "CONFIRMED_IN_B_RTL_SIM_NOT_FIXED_IN_BIT",
+      "detail": "B reports internal AXI-Lite 0x000800A8 write=1 triggers both CONTROL and vendor RAM[42]; 0x000810A8 write 0xDEADBEEF modifies the same RAM cell; top-level only decodes [15:8]==0 and low 8 bits and ignores [31:16].",
+      "write_requirement": "full 32-bit write WSTRB=0xF",
+      "pc2_action": "do not access candidate CONTROL/STATUS/0xB0..0xBC until B binds and masks the alias"
+    },
+    "pc2_board_observation": {
+      "bit": "v3_m_experimental 25654eacc03949f131330ed3eda0ea370f1ade9095a199a9a7bd1d1dc3379fe4",
+      "version": "0xAC=0x504C4233",
+      "status_initial": "0x00FF0010 READY=1",
+      "ack_done": "CONTROL bit2 worked for 120 TEST frames",
+      "soft_reset": "CONTROL bit0 after bad CRC changed STATUS to 0x00FF002E (FAULT=1 ERR=7) and did not recover",
+      "caveat": "PC2 used candidate offsets after B burned M and user authorized testing; possible vendor RAM alias side effect; no further candidate access"
+    }
+  },
+  "status_register": {
+    "access": "read-only 32-bit pread; atomic snapshot; no read-clear; host may read twice and require equal values",
+    "bits": [
+      {"bit": 0, "name": "DONE", "meaning": "ATTENTION/TEST C2H payload is stable and readable; stays set until ACK_DONE", "required": true},
+      {"bits": [1, 3], "name": "ERR", "meaning": "coarse legacy error; valid with DONE=1 or FAULT=1", "required": true},
+      {"bit": 4, "name": "READY", "meaning": "can accept a new H2C frame; 1 only when BUSY=0, DONE=0, FAULT=0, RESET_BUSY=0", "required": true},
+      {"bit": 5, "name": "FAULT", "meaning": "sticky fail-stop; no new H2C; cleared only by SOFT_RESET", "required": true},
+      {"bit": 6, "name": "BUSY", "meaning": "a frame has been accepted and is being processed; host must not write H2C", "required": true},
+      {"bit": 7, "name": "RESET_BUSY", "meaning": "global SOFT_RESET or in-band RESET_CACHE is in progress; READY=0", "required": true},
+      {"bits": [8, 15], "name": "FAULT_CODE", "meaning": "detailed fault code; valid when FAULT=1", "required": false},
+      {"bits": [16, 23], "name": "LAST_SESSION", "meaning": "raw session_id of last completed/faulted frame; 255 if none or global reset", "required": false},
+      {"bits": [24, 31], "name": "reserved", "meaning": "must read 0; reserved for future", "required": true}
+    ],
+    "err_values": {
+      "0": "OK",
+      "1": "SEQ",
+      "2": "LAYER",
+      "3": "CRC",
+      "4": "SESSION",
+      "5": "PROTOCOL_VERSION_OP_FLAGS_PADDING",
+      "6": "PAYLOAD_LENGTH",
+      "7": "INTERNAL_DDR_ENGINE_TIMEOUT_RESET"
+    },
+    "fault_code_values": {
+      "0": "NONE",
+      "1": "SEQ",
+      "2": "LAYER",
+      "3": "CRC",
+      "4": "SESSION",
+      "5": "VERSION",
+      "6": "OP",
+      "7": "PAYLOAD_LEN",
+      "8": "FLAGS",
+      "9": "PADDING_RESERVED",
+      "10": "DIRECTION",
+      "11": "DDR",
+      "12": "ENGINE",
+      "13": "TIMEOUT",
+      "14": "RESET_FAIL",
+      "15": "CONTROL_INVALID"
+    },
+    "invariants": [
+      "BUSY and READY are never both 1",
+      "DONE and READY are never both 1",
+      "FAULT and READY are never both 1",
+      "RESET_BUSY and READY are never both 1",
+      "FAULT is sticky until SOFT_RESET completes",
+      "ERR=0 on successful DONE; ERR!=0 on FAULT",
+      "no status bit has read-clear side effects"
+    ]
+  },
+  "control_register": {
+    "access": "32-bit pwrite; reserved bits must be written 0; one action bit per write",
+    "bits": [
+      {"bit": 0, "name": "SOFT_RESET", "meaning": "self-clearing application reset: quiesce/abort current operation, reset H2C/C2H FIFO, parser, attention/KV FSM and DMA application state; do not reset PCIe HIP/BAR/link; clears FAULT; does not replace the in-band RESET_CACHE", "required": true},
+      {"bit": 1, "name": "ABORT_BATCH", "meaning": "optional first-version helper: stop current batch and enter FAULT; host then uses SOFT_RESET; no per-session abort", "required": false},
+      {"bit": 2, "name": "ACK_DONE", "meaning": "self-clearing; clear DONE after C2H has been consumed and validated; allowed only when DONE=1", "required": true},
+      {"bits": [3, 31], "name": "reserved", "meaning": "write 0", "required": true}
+    ],
+    "host_rules": [
+      "never write ACK_DONE unless DONE=1",
+      "never write reserved bits",
+      "SOFT_RESET may be written after FAULT or when READY is unexpectedly stuck low; host must bound the wait",
+      "in-band RESET_CACHE is still required after SOFT_RESET before any ATTENTION/TEST"
+    ]
+  },
+  "state_machine": {
+    "states": ["UNINIT", "READY", "BUSY", "DONE", "FAULT", "RESET_BUSY"],
+    "transitions": [
+      {"from": "UNINIT", "to": "READY", "trigger": "endpoint initialization; no in-flight, no fault"},
+      {"from": "READY", "to": "BUSY", "trigger": "H2C ATTENTION/TEST accepted"},
+      {"from": "BUSY", "to": "DONE", "trigger": "C2H output stable; ERR=0"},
+      {"from": "BUSY", "to": "FAULT", "trigger": "protocol/transport/DDR/engine error"},
+      {"from": "DONE", "to": "READY", "trigger": "host CONTROL.ACK_DONE after consuming/validating C2H"},
+      {"from": "READY", "to": "RESET_BUSY", "trigger": "in-band RESET_CACHE accepted"},
+      {"from": "RESET_BUSY", "to": "READY", "trigger": "all histories logically cleared and 32B RESET ACK is stable"},
+      {"from": "FAULT", "to": "RESET_BUSY", "trigger": "host CONTROL.SOFT_RESET"},
+      {"from": "READY", "to": "RESET_BUSY", "trigger": "host CONTROL.SOFT_RESET"},
+      {"from": "BUSY", "to": "RESET_BUSY", "trigger": "host CONTROL.SOFT_RESET or optional ABORT_BATCH then SOFT_RESET"},
+      {"from": "DONE", "to": "RESET_BUSY", "trigger": "host CONTROL.SOFT_RESET; DONE is discarded"},
+      {"from": "RESET_BUSY", "to": "READY", "trigger": "SOFT_RESET application reset complete; FAULT=0; histories invalid"}
+    ],
+    "notes": [
+      "FAULT has no automatic transition",
+      "RESET_BUSY from control SOFT_RESET has no C2H ACK; host must send RESET_CACHE afterwards",
+      "RESET_BUSY from in-band RESET_CACHE produces a 32B C2H ACK; host must read and validate it before ATTENTION/TEST",
+      "no per-session RESET/READY/FAULT state is defined in v3"
+    ]
+  },
+  "reset_sequence": [
+    "host reads STATUS twice; require stable snapshot",
+    "if FAULT=1 or READY=0: write CONTROL.SOFT_RESET=1; poll until READY=1 and FAULT=0 within reset_timeout; else root PERST recovery",
+    "host writes in-band RESET_CACHE (session_id=255, layer=255, position=0, seq, empty payload) only when READY=1, BUSY=0, DONE=0, FAULT=0",
+    "FPGA raises RESET_BUSY, blocks new dispatch, quiesces FIFO/engine/AXI, clears all (session,layer) history, M-store next_pos, cache valid and response state",
+    "FPGA makes the 32B RESET ACK stable, clears RESET_BUSY, sets READY=1; no physical DDR zero-fill is required but old KV must be logically unreadable",
+    "host reads exactly 32 bytes, validates header, session=255, op=RESET_CACHE, seq, CRC",
+    "only then host starts the first ATTENTION/TEST at position=0; create a new batch identity after any reset"
+  ],
+  "frame_sequence": [
+    "host reads STATUS; require READY=1, FAULT=0, BUSY=0, DONE=0, RESET_BUSY=0",
+    "host writes one complete H2C frame; write error is a local FAULT",
+    "host polls STATUS for DONE=1 or FAULT=1 within done_timeout",
+    "if FAULT=1: do not read C2H as success; recover",
+    "if DONE=1: require ERR=0; read exactly 1184 bytes for ATTENTION/TEST; validate echo, CRC and payload semantics",
+    "host writes CONTROL.ACK_DONE=1; poll READY=1 before the next frame",
+    "on any mismatch: local FAULT; drain C2H; SOFT_RESET; in-band RESET_CACHE; no automatic resend"
+  ],
+  "fault_recovery": [
+    "stop dispatch immediately; never append/retry a partially completed request",
+    "record STATUS, ERR, FAULT_CODE, LAST_SESSION, seq/layer/position/session and C2H drain bytes",
+    "drain/isolate old C2H until timeout; do not treat old frames as results",
+    "write CONTROL.SOFT_RESET; poll READY=1 and FAULT=0 within reset_timeout",
+    "if SOFT_RESET does not restore READY, stop and use root pcie1-recover.sh (PERST# + unbind/rebind); never pretend recovery succeeded",
+    "after recovery, send RESET_CACHE and re-create the whole batch; old batch/golden is invalid",
+    "auto_retry=false; auto_resend=false; CPU/mock fallback=false"
+  ],
+  "timeouts": {
+    "deadline_enforced": false,
+    "h2c_driver_timeout_s": 10,
+    "ready_poll_timeout_ms": 2000,
+    "done_poll_timeout_ms": 10000,
+    "c2h_read_timeout_ms": 2000,
+    "reset_poll_timeout_ms": 5000,
+    "notes": "Host defaults for fail-stop only; not hardware facts. Blocking H2C still has no hard application deadline; READY must be checked before every write."
+  },
+  "transport": {
+    "data_path": "existing official SGDMA H2C/C2H character devices",
+    "control_path": "existing validated user/control character device 32-bit pread/pwrite",
+    "preserve_driver_irq": true,
+    "raw_mmap": false,
+    "new_driver": false,
+    "single_inflight": true
+  },
+  "counters": {
+    "status": "OFFLINE_RTL_CANDIDATE_ONLY_NOT_BAR_VERIFIED",
+    "binding": "B must confirm offsets; PC2 candidate block is not valid until accepted",
+    "control_node": "existing user control character device",
+    "candidate_offsets": {
+      "COUNTER_SELECT": "0xB0",
+      "COUNTER_VALUE_LO": "0xB4",
+      "COUNTER_VALUE_HI": "0xB8",
+      "COUNTER_SNAPSHOT": "0xBC"
+    },
+    "indices": [
+      {"index": 0, "name": "attention_frames_lo", "width": 64},
+      {"index": 1, "name": "attention_frames_hi", "width": 64},
+      {"index": 2, "name": "h2c_bytes_lo", "width": 64},
+      {"index": 3, "name": "h2c_bytes_hi", "width": 64},
+      {"index": 4, "name": "c2h_bytes_lo", "width": 64},
+      {"index": 5, "name": "c2h_bytes_hi", "width": 64},
+      {"index": 6, "name": "ddr_read_bytes_lo", "width": 64},
+      {"index": 7, "name": "ddr_read_bytes_hi", "width": 64},
+      {"index": 8, "name": "ddr_write_bytes_lo", "width": 64},
+      {"index": 9, "name": "ddr_write_bytes_hi", "width": 64},
+      {"index": 10, "name": "busy_cycles_lo", "width": 64},
+      {"index": 11, "name": "busy_cycles_hi", "width": 64},
+      {"index": 12, "name": "fault_count_lo", "width": 64},
+      {"index": 13, "name": "fault_count_hi", "width": 64},
+      {"index": 14, "name": "reset_count", "width": 32},
+      {"index": 15, "name": "reserved", "width": 32}
+    ],
+    "snapshot_rule": "write SNAPSHOT; read LO then HI; a 64-bit counter is valid only if SNAPSHOT was taken with no in-flight frame; no read-clear"
+  }
+}

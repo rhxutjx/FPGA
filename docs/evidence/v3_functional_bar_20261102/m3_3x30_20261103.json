@@ -1,0 +1,1810 @@
+{
+  "schema": "M_3SINGLE_30ROUNDS_V1",
+  "status": "PASS_M_3SINGLE_30ROUNDS",
+  "mode": "M single-session sequential; NOT batch3",
+  "rounds_per_prompt": 30,
+  "records": [
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 1,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 40.57379321799999
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 2,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 42.483977213
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 3,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 43.811630111
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 4,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 44.80011774999997
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 5,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 45.38088956399997
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 6,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.05258464399998
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 7,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.103830389999985
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 8,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.48891287699996
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 9,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.472641769000006
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 10,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.34981218099995
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 11,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.67043118000004
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 12,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.645023865999974
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 13,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.71718703900001
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 14,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.003671327999996
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 15,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.96357358800003
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 16,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.767338817999985
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 17,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.089933783000106
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 18,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.831869051000126
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 19,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.22563935900007
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 20,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.05862080099996
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 21,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.11436415000003
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 22,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.16981135999981
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 23,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.066566375999855
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 24,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.13124566900001
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 25,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.40629399900013
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 26,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.33749403999991
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 27,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.031231015
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 28,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.04986981899992
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 29,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.069205452000006
+    },
+    {
+      "prompt_index": 1,
+      "label": "Tim and the truck",
+      "round": 30,
+      "prompt_ids_sha256": "3ec4087f17c4c77ea279e2411583594dc2df445f51fb2cf770049df92ea98685",
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.27431261300012
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 1,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.391777275000095
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 2,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.076597496999966
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 3,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.23191858500013
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 4,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.236093440000104
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 5,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.04901592700003
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 6,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.3709755110001
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 7,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.24741644400001
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 8,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.33913511500009
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 9,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.28451235500006
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 10,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.22322290199986
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 11,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.25496992599983
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 12,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.13570238300008
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 13,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.304313769000146
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 14,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.19487625700003
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 15,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.23085958200045
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 16,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.403833651999776
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 17,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.281366124000215
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 18,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 46.968991995000124
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 19,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.384437270000035
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 20,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.20410678300004
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 21,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.21626926399995
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 22,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.188588379000066
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 23,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.146686360999865
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 24,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.336588248000226
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 25,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.10203089000015
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 26,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.211059850999845
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 27,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.26202997300015
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 28,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.342584703000284
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 29,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.28135036599997
+    },
+    {
+      "prompt_index": 2,
+      "label": "Spot and his toy",
+      "round": 30,
+      "prompt_ids_sha256": "fdb237e165580a21dc11cb09589fba44df1e6a98bde96c8cf050111283e5e91a",
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.09661071899973
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 1,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.11715983499971
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 2,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.175046847999965
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 3,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.13082830099984
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 4,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.31363076999969
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 5,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.25989235199995
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 6,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.28767248000031
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 7,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.185374847000276
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 8,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.2563136990002
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 9,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.22763628700022
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 10,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.18973011600019
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 11,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.3661960469999
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 12,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.28479058300036
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 13,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.3625956019996
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 14,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.170244638999975
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 15,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.14101106999988
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 16,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.34587619399963
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 17,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.2663397350002
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 18,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.35827316199993
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 19,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.22098258300002
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 20,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.2882536850002
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 21,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.36451204599962
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 22,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.216389445000004
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 23,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.28738146100022
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 24,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.3670197069996
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 25,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.13821514400024
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 26,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.3606542360003
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 27,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.15967483799977
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 28,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.212028151000595
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 29,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.53461473600055
+    },
+    {
+      "prompt_index": 3,
+      "label": "Mia in the kitchen",
+      "round": 30,
+      "prompt_ids_sha256": "97f7d14633e5772b85436c5651f4600994be6ec13593c13a7c92f4568f2f9175",
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260,
+      "wall_s": 47.35292260099959
+    }
+  ],
+  "elapsed_s": 4225.833839263,
+  "note": "actual M FPGA Attention; no independent full-model M golden"
+}

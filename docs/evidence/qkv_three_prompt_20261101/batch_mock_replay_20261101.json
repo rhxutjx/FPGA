@@ -1,0 +1,15 @@
+{
+  "schema": "QKV_BATCH_MOCK_REPLAY_V1",
+  "status": "MOCK_REPLAY_OK",
+  "groups": 1050,
+  "frames": 3150,
+  "device_frames": 3151,
+  "last_seq": 3151,
+  "sessions": [
+    0,
+    1,
+    2
+  ],
+  "source": "QKV RK-NPU + CPU attention feedback; mock endpoint, no FPGA",
+  "not_m_golden": true
+}

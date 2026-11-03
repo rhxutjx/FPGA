@@ -1,0 +1,65 @@
+{
+  "schema": "M_PERENGINE_3SESSION_V1",
+  "status": "PASS_M_PERENGINE_3SESSION",
+  "wall_s": 156.29746658400109,
+  "total_output_tokens": 24,
+  "aggregate_tokens_s": 0.15355335262009095,
+  "results": [
+    {
+      "session": 0,
+      "wall_s": 156.2745760580001,
+      "generated_ids": [
+        1492,
+        9239,
+        1270,
+        198,
+        3681,
+        2637,
+        260,
+        15038
+      ],
+      "generated_text": " look nice.\"\nHe took the truck",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260
+    },
+    {
+      "session": 1,
+      "wall_s": 156.02413558400076,
+      "generated_ids": [
+        722,
+        357,
+        288,
+        919,
+        17025,
+        4598,
+        30,
+        1249
+      ],
+      "generated_text": " use it to make funny sounds. But",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260
+    },
+    {
+      "session": 2,
+      "wall_s": 155.81464201699964,
+      "generated_ids": [
+        3985,
+        282,
+        1114,
+        30,
+        476,
+        1780,
+        506,
+        338
+      ],
+      "generated_text": " box of food. \"What's that",
+      "stop_reason": "MAX_NEW_TOKENS",
+      "attention_calls": 1260
+    }
+  ],
+  "errors": [
+    null,
+    null,
+    null
+  ]
+}

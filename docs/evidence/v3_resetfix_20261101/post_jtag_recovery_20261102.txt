@@ -1,0 +1,86 @@
+﻿PC_LOCAL_TIME=2026-11-02 21:50:48 +08:00
+/usr/local/sbin/pcie1-recover.sh; echo RC=$?
+[?2004l[ 5056.132300] pdev 0x000000004b410225, sgdev 0x00000000a067afbe, 0x00000000e1180b4e.
+[ 5056.132357] xpdev 0x00000000a067afbe, destroy_interfaces, sgdev 0x00000000e1180b4e.
+[ 5056.133302] xpdev 0x00000000a067afbe, sgdev 0x00000000e1180b4e sgdma_device_close.
+[ 5056.134476] Goodbye,Anlogic-pcie
+pcie1-recover: anlogic_pci unloaded
+[ 5056.137493] pci_bus 0000:21: busn_res: [bus 21] is released
+[ 5056.137656] pci_bus 0000:20: busn_res: [bus 20-2f] is released
+pcie1-recover: rk-pcie 2a210000 unbound
+pcie1-fpga: initial settle 5s (subsys wait 0s)
+pcie1-fpga: gpio-124 (vcc3v3_pcie) = high
+pcie1-fpga: gpio-48 (PERST#) pulsed
+[ 5063.366380] rk-pcie 2a210000.pcie: invalid prsnt-gpios property in node
+[ 5063.366603] rk-pcie 2a210000.pcie: no vpcie3v3 regulator found
+[ 5063.367342] rk-pcie 2a210000.pcie: max MSI vector is 32
+[ 5063.367452] rk-pcie 2a210000.pcie: host bridge /pcie@2a210000 ranges:
+[ 5063.367493] rk-pcie 2a210000.pcie:      err 0x0021000000..0x00210fffff -> 0x0021000000
+[ 5063.367511] rk-pcie 2a210000.pcie:       IO 0x0021100000..0x00211fffff -> 0x0021100000
+[ 5063.367529] rk-pcie 2a210000.pcie:      MEM 0x0021200000..0x0021ffffff -> 0x0021200000
+[ 5063.367542] rk-pcie 2a210000.pcie:      MEM 0x0980000000..0x09ffffffff -> 0x0980000000
+[ 5063.367704] rk-pcie 2a210000.pcie: iATU unroll: enabled
+[ 5063.367717] rk-pcie 2a210000.pcie: iATU regions: 8 ob, 8 ib, align 64K, limit 8G
+[ 5063.626145] rk-pcie 2a210000.pcie: PCIe Link up, LTSSM is 0x130011
+[ 5063.626200] rk-pcie 2a210000.pcie: PCIe Gen.2 x1 link up
+[ 5063.626443] rk-pcie 2a210000.pcie: PCI host bridge to bus 0000:20
+[ 5063.626459] pci_bus 0000:20: root bus resource [bus 20-2f]
+[ 5063.626471] pci_bus 0000:20: root bus resource [??? 0x21000000-0x210fffff flags 0x0]
+[ 5063.626485] pci_bus 0000:20: root bus resource [io  0x0000-0xfffff] (bus address [0x21100000-0x211fffff])
+[ 5063.626495] pci_bus 0000:20: root bus resource [mem 0x21200000-0x21ffffff]
+[ 5063.626504] pci_bus 0000:20: root bus resource [mem 0x980000000-0x9ffffffff]
+[ 5063.626547] pci 0000:20:00.0: [1d87:3576] type 01 class 0x060400
+[ 5063.626628] pci 0000:20:00.0: supports D1 D2
+[ 5063.626637] pci 0000:20:00.0: PME# supported from D0 D1 D3hot
+[ 5063.674862] pci 0000:20:00.0: Primary bus is hard wired to 0
+[ 5063.674910] pci 0000:20:00.0: bridge configuration invalid ([bus 01-ff]), reconfiguring
+[ 5063.675176] pci 0000:21:00.0: [1edb:abcd] type 00 class 0x050000
+[ 5063.675232] pci 0000:21:00.0: reg 0x10: [mem 0x00000000-0x000fffff]
+[ 5063.675262] pci 0000:21:00.0: reg 0x14: [mem 0x00000000-0x0000ffff]
+[ 5063.675586] pci 0000:21:00.0: supports D1
+[ 5063.675596] pci 0000:21:00.0: PME# supported from D3cold
+[ 5063.676012] pci_bus 0000:21: busn_res: [bus 21-2f] end is updated to 21
+[ 5063.676059] pci 0000:20:00.0: BAR 8: assigned [mem 0x21200000-0x213fffff]
+[ 5063.676073] pci 0000:21:00.0: BAR 0: assigned [mem 0x21200000-0x212fffff]
+[ 5063.676091] pci 0000:21:00.0: BAR 1: assigned [mem 0x21300000-0x2130ffff]
+[ 5063.676109] pci 0000:20:00.0: PCI bridge to [bus 21]
+[ 5063.676119] pci 0000:20:00.0:   bridge window [mem 0x21200000-0x213fffff]
+[ 5063.678410] pcieport 0000:20:00.0: PME: Signaling with IRQ 123
+pcie1-fpga: PCIe1 up: 21:00.0 RAM memory [0500]: Device [1edb:abcd]
+[ 5066.505165] Hello,Anlogic-pcie
+[ 5066.505538] Anlogic-pcie device 0000:21:00.0, 0x000000001d6c2096.
+[ 5066.505561] sgdev->h2c_channel_max4.
+[ 5066.505569] sgdev->c2h_channel_max4.
+[ 5066.507305] Anlogic-pcie 0000:21:00.0: enabling device (0000 -> 0002)
+[ 5066.507423] BAR0 at 0x21200000 mapped at 0x00000000a4d90f09, length=1048576(/1048576)
+[ 5066.507436] BAR0 len:1048576
+[ 5066.507451] BAR1 at 0x21300000 mapped at 0x000000007675067f, length=65536(/65536)
+[ 5066.507461] BAR1 len:65536
+[ 5066.507470] config bar 1, pos 1.
+[ 5066.507477] BAR #2 is not present - skipping
+[ 5066.507483] BAR2 len:0
+[ 5066.507489] BAR #3 is not present - skipping
+[ 5066.507495] BAR3 len:0
+[ 5066.507502] BAR #4 is not present - skipping
+[ 5066.507508] BAR4 len:0
+[ 5066.507515] BAR #5 is not present - skipping
+[ 5066.507521] BAR5 len:0
+[ 5066.507528] 2 BARs: config 1, user 0, bypass -1.
+[ 5066.509477] anlogic_pci:sgdma_thread_add_work: 0-H2C0-ST 0x000000003b286ebd assigned to cmpl status thread sgdma_poll_th1,1.
+[ 5066.509538] 0-C2H0-ST init: st_c2h credit=1 force_wb=0 desc_max=1023.
+[ 5066.510121] 0-C2H0-ST enable credit mode.
+[ 5066.510159] anlogic_pci:sgdma_thread_add_work: 0-C2H0-ST 0x00000000ab7347bb assigned to cmpl status thread sgdma_poll_th2,1.
+[ 5066.510179] 0000:21:00.0: poll_mode=1, probed engines h2c=1 c2h=1.
+[ 5066.510188] 0000:21:00.0: poll mode active, skip MSI/MSI-X and IRQ setup.
+[ 5066.510202] xpdev_create_interfaces config bar:1
+[ 5066.510217] allocate cdev region OK
+[ 5066.510223]  cdev region MAJOR: 511, MINOR:0
+[ 5066.510566] xpdev_create_interfaces ctrl_cdev OK
+[ 5066.510799] xpdev_create_interfaces user bar:0
+[ 5066.510889] xpdev_create_interfaces user_cdev OK
+pcie1-recover: lspci: 21:00.0 RAM memory [0500]: Device [1edb:abcd]
+pcie1-recover: nodes: /dev/ANLOGIC-PCI0_c2h_0 /dev/ANLOGIC-PCI0_control /dev/ANLOGIC-PCI0_h2c_0 /dev/ANLOGIC-PCI0_user 
+pcie1-recover: done
+RC=0
+[?2004hroot@linaro-alip:/# 
+[?2004l[?2004hroot@linaro-alip:/# 

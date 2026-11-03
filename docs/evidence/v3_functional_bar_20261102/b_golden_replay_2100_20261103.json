@@ -1,0 +1,23 @@
+{
+  "schema": "B_FIXED_INPUT_GOLDEN_REPLAY_V1",
+  "result": "B_GOLDEN_2100_OK",
+  "frames": 2100,
+  "requests": [
+    0,
+    1
+  ],
+  "first": {
+    "request": 0,
+    "layer": 0,
+    "position": 0,
+    "seq": 2
+  },
+  "last": {
+    "request": 1,
+    "layer": 29,
+    "position": 34,
+    "seq": 2102
+  },
+  "input_sha256": "6154debfd0afc880d0d736a219446f8ffc519dfe81791a3484fa3d4f9a6b3f0f",
+  "expected_sha256": "52e7e5794fa03535005f51c86eaa8d1d10be0dd0948bd01b0d33d9de74afa25c"
+}

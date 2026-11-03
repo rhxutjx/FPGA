@@ -1,0 +1,316 @@
+{
+  "schema": "M_INTERLEAVED_5ROUNDS_V1",
+  "status": "PASS_M_INTERLEAVED_5ROUNDS",
+  "rounds": [
+    {
+      "round": 1,
+      "wall_s": 155.337922337,
+      "results": [
+        {
+          "session": 0,
+          "wall_s": 155.32491304100006,
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "generated_text": " look nice.\"\nHe took the truck",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 1,
+          "wall_s": 155.13421923499993,
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "generated_text": " use it to make funny sounds. But",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 2,
+          "wall_s": 155.021565217,
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "generated_text": " box of food. \"What's that",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        }
+      ],
+      "errors": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "round": 2,
+      "wall_s": 162.27272440900015,
+      "results": [
+        {
+          "session": 0,
+          "wall_s": 162.23856649200002,
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "generated_text": " look nice.\"\nHe took the truck",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 1,
+          "wall_s": 162.088089072,
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "generated_text": " use it to make funny sounds. But",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 2,
+          "wall_s": 162.27140336200011,
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "generated_text": " box of food. \"What's that",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        }
+      ],
+      "errors": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "round": 3,
+      "wall_s": 163.91471765699998,
+      "results": [
+        {
+          "session": 0,
+          "wall_s": 163.85850499000003,
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "generated_text": " look nice.\"\nHe took the truck",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 1,
+          "wall_s": 163.90948751300016,
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "generated_text": " use it to make funny sounds. But",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 2,
+          "wall_s": 163.61161001200003,
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "generated_text": " box of food. \"What's that",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        }
+      ],
+      "errors": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "round": 4,
+      "wall_s": 162.82085894600004,
+      "results": [
+        {
+          "session": 0,
+          "wall_s": 162.79151894300003,
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "generated_text": " look nice.\"\nHe took the truck",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 1,
+          "wall_s": 162.38363579399993,
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "generated_text": " use it to make funny sounds. But",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 2,
+          "wall_s": 162.81945487199982,
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "generated_text": " box of food. \"What's that",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        }
+      ],
+      "errors": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "round": 5,
+      "wall_s": 167.6019481410001,
+      "results": [
+        {
+          "session": 0,
+          "wall_s": 167.59242234099997,
+          "generated_ids": [
+            1492,
+            9239,
+            1270,
+            198,
+            3681,
+            2637,
+            260,
+            15038
+          ],
+          "generated_text": " look nice.\"\nHe took the truck",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 1,
+          "wall_s": 167.29158451399985,
+          "generated_ids": [
+            722,
+            357,
+            288,
+            919,
+            17025,
+            4598,
+            30,
+            1249
+          ],
+          "generated_text": " use it to make funny sounds. But",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        },
+        {
+          "session": 2,
+          "wall_s": 167.424706861,
+          "generated_ids": [
+            3985,
+            282,
+            1114,
+            30,
+            476,
+            1780,
+            506,
+            338
+          ],
+          "generated_text": " box of food. \"What's that",
+          "stop_reason": "MAX_NEW_TOKENS",
+          "attention_calls": 1260
+        }
+      ],
+      "errors": [
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}
