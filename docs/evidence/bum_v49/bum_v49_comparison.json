@@ -1,0 +1,83 @@
+{
+  "schema": "PC1_BUM_BOS_V49_COMPARISON",
+  "status": "PASS_SAME_PROFILE_BUM_BOARD_COMPARISON",
+  "profile_sha256": "6362843a8e7920689112a29f68d98c2cd73f44596abf0b53ea2d890cf3d5b35a",
+  "common_signature": "fc3354f64580c3054db855934f2ed0a969b6902808d4f3828b8ec19166a12aeb",
+  "rows": [
+    {
+      "mode": "B",
+      "bit_sha256_operator_declared": "44aad0e83621bea88f4aed3b26791a93b203d7722609106bd48a6e5cfe9c4e10",
+      "policy_sha256": "209e44c84b27fd5e77c8533b2b5e8f953f1855c6ac2c4dc7673210724b335cfe",
+      "pc_candidate_reserved_kv_bytes_at_256": 5898240,
+      "scored_tokens": 2509,
+      "total_nll": 4615.367894251839,
+      "mean_nll": 1.8395248681753045,
+      "ppl": 6.293547285923427,
+      "next_token_accuracy": 0.5496213630928657,
+      "mean_forward_us": 1643256.9780833002,
+      "p50_forward_us": 1642269.279,
+      "p95_forward_us": 1716940.886,
+      "teacher_forced_forwards_per_s": 0.60854754511154,
+      "npu_total_us": 321693296.14599997,
+      "attention_total_us": 1370307671.103,
+      "pcie_h2c_frame_bytes_derived": 146928032,
+      "pcie_c2h_frame_bytes_derived": 89120672,
+      "argmax_difference_from_b": 0,
+      "mean_nll_delta_from_b": 0.0
+    },
+    {
+      "mode": "U",
+      "bit_sha256_operator_declared": "b5ad8f911ec270e448993d09c1bc243b4420d873870b3b18d39bd46a2958b26b",
+      "policy_sha256": "cfb15bc7f4b521b671d6a1b80fb1462efcb17c9a8a5b2cb30e6c1cc252eff246",
+      "pc_candidate_reserved_kv_bytes_at_256": 1167360,
+      "scored_tokens": 2509,
+      "total_nll": 5669.8140441906835,
+      "mean_nll": 2.259790372335864,
+      "ppl": 9.581080496710904,
+      "next_token_accuracy": 0.5013949780789159,
+      "mean_forward_us": 2329172.3313706657,
+      "p50_forward_us": 2340916.898,
+      "p95_forward_us": 2988993.901,
+      "teacher_forced_forwards_per_s": 0.42933705957752055,
+      "npu_total_us": 320926858.394,
+      "attention_total_us": 3072817645.394,
+      "pcie_h2c_frame_bytes_derived": 146928032,
+      "pcie_c2h_frame_bytes_derived": 89120672,
+      "argmax_difference_from_b": 843,
+      "mean_nll_delta_from_b": 0.42026550416055974
+    },
+    {
+      "mode": "M",
+      "bit_sha256_operator_declared": "67c149839565425ce450bfbca1e998c58f4700de0689f0a07fdc057215bbfab1",
+      "policy_sha256": "65b876bd56d6458a8b416f13719cf4688f1fafad48ab82675ef29a8f9a13173c",
+      "pc_candidate_reserved_kv_bytes_at_256": 1966080,
+      "scored_tokens": 2509,
+      "total_nll": 4672.501635803548,
+      "mean_nll": 1.862296387327042,
+      "ppl": 6.438505109565627,
+      "next_token_accuracy": 0.5500199282582702,
+      "mean_forward_us": 2069015.59909725,
+      "p50_forward_us": 2015035.072,
+      "p95_forward_us": 2683319.222,
+      "teacher_forced_forwards_per_s": 0.4833216339385351,
+      "npu_total_us": 320431907.554,
+      "attention_total_us": 2441710060.594,
+      "pcie_h2c_frame_bytes_derived": 146928032,
+      "pcie_c2h_frame_bytes_derived": 89120672,
+      "argmax_difference_from_b": 305,
+      "mean_nll_delta_from_b": 0.0227715191517374
+    }
+  ],
+  "m_vs_u": {
+    "ppl_reduction": 3.1425753871452766,
+    "mean_nll_reduction": 0.39749398500882216,
+    "forward_throughput_ratio": 1.1257393769224973
+  },
+  "assessment_boundaries": [
+    "B/U/M relative quality and host-clock teacher-forced forward speed are comparable.",
+    "Bit identities are operator declarations, not board readback.",
+    "PCIe byte counts are protocol-derived, not measured DDR traffic.",
+    "Reserved KV bytes use the PC candidate layout and fixed M layer IDs; they are modeled 256-position allocation, not measured FPGA DDR use.",
+    "Generation throughput, FPGA internal cycles/DDR bytes, TD resources and same-quality RK-only comparison need separate evidence before full PLAN goal claim."
+  ]
+}

@@ -1,5 +1,7 @@
 # KVmix_on_FPGA
 
+> PC1 最新实测进度（2026-11-03）：[B/U/M 上板评测与证据](docs/PC1_PROGRESS_20261103.md)。下文较早阶段的进度描述请以该记录为补充。
+
 更新：2026-09-30。**正式模型：HuggingFaceTB/SmolLM-135M；正式架构：方案 C。** RK3576 已由成员通过串口和 SSH 登录 Debian 12；NPU、PCIe 与完整模型尚未跑通。
 
 ```text
